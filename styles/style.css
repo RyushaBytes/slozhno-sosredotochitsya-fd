@@ -4,6 +4,7 @@
   font-family: var(--font-family);
   font-size: var(--font-size);
   line-height: var(--line-height);
+  background-attachment: fixed;
 }
 
 .header {
@@ -247,7 +248,7 @@
   }
   
   .header__theme-menu {
-    margin-top: 70px;
+    margin-top: 172px;
   }
   
   .header__title {

@@ -18,6 +18,14 @@
   --page-bg-image: url('../images/cover-image-light.png');
 }
 
+:root.theme-light .header__decor {
+  display: none;
+}
+
+:root.theme-light .section__title {
+  color: var(--text-color);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff1f7;
@@ -27,5 +35,13 @@
     --decor-color: #353430;
     --text-decor-color: #353430;
     --page-bg-image: url('../images/cover-image-light.png');
+  }
+
+  :root:not(.theme-dark) .header__decor {
+    display: none;
+  }
+
+  :root:not(.theme-dark) .section__title {
+    color: var(--text-color);
   }
 }

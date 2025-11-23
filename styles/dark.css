@@ -17,3 +17,11 @@
   --text-decor-color: #000028;
   --page-bg-image: url('../images/cover-image-dark.png');
 }
+
+:root.theme-dark .header__decor {
+  display: block;
+}
+
+:root.theme-dark .section__title {
+  color: var(--accent-color);
+}
