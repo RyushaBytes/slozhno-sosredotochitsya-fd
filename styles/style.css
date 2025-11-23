@@ -275,7 +275,6 @@
   
   .section:nth-child(2) .section__content {
     grid-column: 1 / -1;
-    margin-top: 20px;
   }
   
   .section__columns .section__content {
