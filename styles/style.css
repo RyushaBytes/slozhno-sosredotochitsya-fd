@@ -345,17 +345,13 @@
     max-inline-size: 491px;
   }
 
-  .section {
-    gap: 10px;
-  }
-
   .section:not(.section__concentration) {
     grid-template-columns: 1fr 2fr;
     align-items: start;
   }
 
   .section:not(.section__concentration) .section__content {
-    grid-column: 2;
+    grid-column: 2 / 4;
   }
 
   .section__concentration {
