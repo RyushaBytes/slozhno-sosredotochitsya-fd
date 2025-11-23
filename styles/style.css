@@ -237,6 +237,21 @@
     padding: 20px;
   }
 
+  .decorated-zone::before {
+    top: 20px;
+    right: 20px;
+  }
+
+  .decorated-zone::after {
+  bottom: 20px;
+  left: 20px;
+  }
+
+  .header__decor {
+    top: 20px;
+    right: 48px;
+  }  
+
   .header__theme-menu {
     margin-top: 172px;
   }
@@ -267,19 +282,16 @@
   .section__concentration {
     grid-template-columns: 1fr 2fr;
     align-items: start;
-}
-
-.section__concentration .section__content {
-    grid-column: 1 / -1;
-}
+  }
 
   .section__concentration .section__content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    grid-column: 1 / -1;
   }
 
-  .section__concentration .card{
+  .section__concentration .card {
     grid-column: span 2;
   }
 
