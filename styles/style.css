@@ -101,6 +101,7 @@
 
 .header__theme-menu-button:focus {
   border-block-end: 1px solid var(--decor-color);
+  outline: none;
 }
 
 .header__theme-menu-button_active {
@@ -243,14 +244,14 @@
   }
 
   .decorated-zone::after {
-  bottom: 20px;
-  left: 20px;
+    bottom: 20px;
+    left: 20px;
   }
 
   .header__decor {
     top: 20px;
     right: 48px;
-  }  
+  }
 
   .header__theme-menu {
     margin-top: 172px;
